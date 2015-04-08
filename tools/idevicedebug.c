@@ -462,7 +462,7 @@ int main(int argc, char *argv[])
 					dres = debugserver_client_handle_response(debugserver_client, &response, 1);
 				}
 
-				sleep(1);
+				usleep(1000);
 			}
 
 			/* kill process after we finished */
